@@ -1,0 +1,22 @@
+{
+    "name": "pith/doctrine-migration-integration",
+    "description": "For integrating Doctrine Migrations with Pith",
+    "authors": [
+        {
+            "name": "Ian Maurmann",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "doctrine/migrations": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pith\\PithDoctrineMigrationIntegration\\": [
+                "src/comparators/"
+            ]
+        }
+    }
+}
